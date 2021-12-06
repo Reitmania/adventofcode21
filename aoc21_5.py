@@ -86,7 +86,7 @@ def main():
             #diagonal
             ycoord = np.sort(y[i])
             xcoord = np.sort(x[i])
-            for k in range(ycoord[1]-ycoord[0]+1):
+            for k in range(ycoord[1]-ycoord[0]-1):
                 array[xcoord[0]+k][ycoord[0]+k] += 1
 
     count = 0
